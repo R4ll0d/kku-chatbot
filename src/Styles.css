@@ -1,0 +1,5 @@
+/* Custom styles if needed beyond Tailwind */
+body {
+  margin: 0;
+  font-family: 'Noto Sans Thai', sans-serif;
+}
