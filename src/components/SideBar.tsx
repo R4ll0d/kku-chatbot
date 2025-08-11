@@ -1,6 +1,5 @@
 import {
   Box,
-  Button,
   CardContent,
   Divider,
   Drawer,
@@ -118,9 +117,8 @@ const SideBar = () => {
               <CardContent>
                 <Box sx={{ ml: 2 }}>
                   {historyItems.map((item) => (
-                    <Button
+                    <ListItemButton
                       key={item.id}
-                      fullWidth
                       sx={{
                         justifyContent: "flex-start",
                         px: 1.5,
@@ -149,7 +147,7 @@ const SideBar = () => {
                           {item.time}
                         </Typography>
                       </Box>
-                    </Button>
+                    </ListItemButton>
                   ))}
                 </Box>
               </CardContent>
