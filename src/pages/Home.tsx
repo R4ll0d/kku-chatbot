@@ -63,7 +63,7 @@ const Home = () => {
         <Box sx={{ flex: 1, display: "flex", flexDirection: "column" }}>
           <Box>
             <Typography variant="h5" sx={{ fontWeight: 600, color: "#424242" }}>
-              CP KKU Chatbot
+              KKU Chatbot
             </Typography>
           </Box>
 
@@ -95,13 +95,12 @@ const Home = () => {
                 sx={{
                   fontWeight: 600,
                   color: "#424242",
-                  mb: 6,
+                  mb: 2,
                 }}
               >
                 Category
               </Typography>
             </Box>
-
             <Box
               sx={{
                 display: "flex",
@@ -156,6 +155,7 @@ const Home = () => {
               alignItems: "center",
               p: 2,
               gap: 1,
+              mt: 5,
             }}
           >
             <TextField
